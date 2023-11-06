@@ -1,4 +1,6 @@
 it('test', () => {
-    cy.log('1')
+    cy.log(Cypress.env('LANG'))
+
+    
 })
 

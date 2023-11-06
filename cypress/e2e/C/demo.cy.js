@@ -1,3 +1,4 @@
 it('test', () => {
-    cy.log('1')
+    cy.visit('https://www.saucedemo.com/v1/')
+    cy.get('erreur_get')
 })
