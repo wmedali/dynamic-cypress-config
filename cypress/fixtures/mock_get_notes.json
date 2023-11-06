@@ -1,0 +1,36 @@
+{
+    "success":true,
+    "status":200,
+    "message":"Notes successfully retrieved",
+    "data":[
+       {
+          "id":"6548ec1cd1562c00f7291ca8",
+          "title":"Une note mockée",
+          "description":"Ceci est une fake note",
+          "category":"Home",
+          "completed":false,
+          "created_at":"1980-11-06T15: 14: 18.330Z",
+          "updated_at":"1980-11-06T15: 31: 24.688Z",
+          "user_id":"6548ec1cd1562c00f7291ca8"
+       },
+       {
+          "id":"6548ec1cd1562c00f7291ca8",
+          "title":"Une note personnelle",
+          "description":"Ceci est une fake note",
+          "category":"Personal",
+          "completed":false,
+          "created_at":"1980-11-06T15: 14: 18.330Z",
+          "updated_at":"2020-11-06T15: 31: 24.688Z",
+          "user_id":"6548ec1cd1562c00f7291ca8"
+       },
+       {
+          "id":"6548ec1cd1562c00f7291ca8",
+          "title":"Une note de travail",
+          "description":"Work",
+          "completed":false,
+          "created_at":"1980-11-06T15: 14: 18.330Z",
+          "updated_at":"1990-11-06T15: 31: 24.688Z",
+          "user_id":"6548ec1cd1562c00f7291ca8"
+       }
+    ]
+ }

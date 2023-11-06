@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Ma pemière note", 
+        "description": "Ma première description",
+        "category" : "Home"
+    },
+    {
+        "title": "Ma deuxième note", 
+        "description": "Ma deuxième description",
+        "category" : "Personal"
+    },
+    {
+        "title": "Ma troisième note", 
+        "description": "Ma troisième description",
+        "category" : "Work"
+    }
+]
