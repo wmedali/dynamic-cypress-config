@@ -1,0 +1,12 @@
+{
+    "Items": [
+        {
+            "cat": "notebook",
+            "desc": "Macbook Pro 13'' ultra puissant avec puce M1",
+            "id": 1,
+            "img": "img.png",
+            "price": 9999.0,
+            "title": "Apple macbook m1"
+        }
+    ]
+}

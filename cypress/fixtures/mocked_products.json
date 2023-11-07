@@ -1,0 +1,15 @@
+{
+    "Items": [
+        {
+            "cat": "phone",
+            "desc": "Nouveau telephone cher pour rien",
+            "id": 1,
+            "img": "imgs/galaxy_s6.jpg",
+            "price": 999.0,
+            "title": "Custom phone N7"
+        }
+    ],
+    "LastEvaluatedKey": {
+        "id": "10"
+    }
+}
