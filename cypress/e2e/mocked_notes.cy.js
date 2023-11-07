@@ -19,8 +19,11 @@ it('Login to notes app and delete cards', function () {
     cy.get('[data-testid="login-password"]').type('azerty')
     cy.get('[data-testid="login-submit"]').click()
     cy.get('[data-testid="add-new-note"]').should('be.visible').and('contain.text', 'Add Note')
+    cy.percySnapshot('Application avec 3 notes')
 
     cy.get('[data-testid="note-card"]').first().find('[data-testid="note-delete"]').click()
+    cy.percySnapshot('Modale de confirmation du supression de note')
+
     cy.get('[data-testid="note-delete-confirm"]').click()
 
 })
