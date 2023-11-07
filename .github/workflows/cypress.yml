@@ -1,8 +1,10 @@
 name: Executer les tests cypress
 
 on:
+  push:
+    branches: [ "main" ]
   schedule:
-    - cron:  '*/3 * * * *'
+    - cron:  "*/1 * * * *"
 
 jobs:
   run-tests:
